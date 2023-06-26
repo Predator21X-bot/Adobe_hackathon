@@ -1,3 +1,7 @@
+//In this API - KEY represents my API credentials obtained from Adobe PDF Services. Additionally, I added and included the OkHttp library as a project dependency. mainly using Maven, and downloading the JAR file.
+
+//In this example, the extractInvoiceData function takes the URL of a PDF invoice as input and sends a POST request to the Adobe PDF Services API. The request includes the necessary headers, payload, and API key. The extracted data is printed to the console for demonstration purposes.
+
 import okhttp3.*;
 
 import java.io.IOException;
